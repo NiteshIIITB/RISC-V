@@ -31,6 +31,16 @@ int main(){
 <details> 
 <summary><strong>C Program on RISCV64 compiler</strong></summary>
 
+<h3>Assembly code output with o1 attribute</h3>
+<div align="center">
+	<img src="https://github.com/NiteshIIITB/RISC-V/assets/140998787/81e48eaa-107c-419e-9c9c-4ca62f3e7397">
+</div>
+
+<h3>Assembly code output with ofast attribute</h3>
+<div align="center">
+	<img src="https://user-images.githubusercontent.com/140998787/261853142-51bd6b4b-791b-45d0-bda4-6bf338c5de81.png">
+</div>
+
  <h3>Commands used:</h3>
  
 ```
