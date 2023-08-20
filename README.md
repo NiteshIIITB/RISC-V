@@ -117,6 +117,19 @@ riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 <div align = "center">
 	<img src = "https://user-images.githubusercontent.com/140998787/261842057-4c5f33ec-14d1-47fc-87a7-52689d6d37d2.png">
 </div>
+<br>
+<div align="center"><h1>Sequential Logic</h1></div>
+<h2>4-bit Up Counter</h2>
+<div align = "center">
+	<img src= "https://github.com/NiteshIIITB/RISC-V/assets/140998787/9ff4911b-1b21-4b54-bfa7-60e8ec4abfae">
+</div>
+
+<h2>Fibonacci Sequence</h2>
+<div align = "center">
+	
+<img src = "https://user-images.githubusercontent.com/140998787/261844311-caf5358c-1726-4ec3-bb04-40569a0002aa.png">
+        <img src = "https://user-images.githubusercontent.com/140998787/261844482-e3f54fd2-95a4-469e-bc72-6eee7a9e166f.png">
+</div>
  </details>
 </details>
 
