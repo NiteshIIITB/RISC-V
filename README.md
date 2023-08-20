@@ -67,8 +67,25 @@ riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
         sum1ton.c is the name of the C source file that contains the code to be compiled.</li> 
 
  </ul>
-</p>
+ 
+</p><br>
 
+```
+riscv64-unknown-elf-objdump -d sum1ton.o
+
+```
+<p>
+	<h4>Explaination :</h4>
+	It is used to disassemble an object file (sum1ton.o) produced by a RISC-V toolchain. The objdump command is commonly used to analyze and display information about object files, executable files, and libraries.<br>
+
+In this specific case,the riscv64-unknown-elf-objdump command, which is part of the RISC-V toolchain and is used to disassemble RISC-V machine code into human-readable assembly instructions.
+
+When the command is run, it will generate a disassembly listing of the instructions contained within the sum1ton.o object file. This can be particularly useful for inspecting the assembly code produced by the compiler or for debugging purposes.<br>
+
+The -d flag specifies that we want to disassemble the code, and sum1ton.o is the name of the object file you want to disassemble.
+
+
+</p>
 
 </details>
 </details>
