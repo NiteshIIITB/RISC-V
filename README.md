@@ -59,7 +59,7 @@ riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 
 ```
 
-<h4>Explaination:</h4>
+<h4>Explanation:</h4>
 <p>
 	<ul>
 	<li>  <strong> riscv64-unknown-elf-gcc:</strong> 
@@ -96,7 +96,7 @@ riscv64-unknown-elf-objdump -d sum1ton.o
 
 ```
 <p>
-	<h4>Explaination :</h4>
+	<h4>Explanation :</h4>
 	It is used to disassemble an object file (sum1ton.o) produced by a RISC-V toolchain. The objdump command is commonly used to analyze and display information about object files, executable files, and libraries.<br>
 
 In this specific case,the riscv64-unknown-elf-objdump command, which is part of the RISC-V toolchain and is used to disassemble RISC-V machine code into human-readable assembly instructions.
