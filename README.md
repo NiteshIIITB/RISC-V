@@ -46,6 +46,11 @@ int main(){
 	<img src="https://user-images.githubusercontent.com/140998787/261853142-51bd6b4b-791b-45d0-bda4-6bf338c5de81.png">
 </div>
 
+<h3>Step by step observation of code execution</h3>
+<div align="center">
+  <img src = "https://github.com/NiteshIIITB/RISC-V/assets/140998787/ac44eada-3427-4604-9548-3a70ab895b66">
+	
+</div>
 
  <h3>Commands used:</h3>
  
