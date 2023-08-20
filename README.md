@@ -89,7 +89,7 @@ riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 <details><summary><strong>Introduction to Makerchip IDE</strong></summary>
 <h2>Pythagorean Template</h2>
 <div align = "center">
-	<img src = "">
+	<img src = "https://user-images.githubusercontent.com/140998787/261842578-9d2e71b4-ea48-4691-bf26-ee91cae9c1a4.png">
 </div>
 
 
