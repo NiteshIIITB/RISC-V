@@ -79,6 +79,45 @@ riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 
 <details>
 <summary><strong>Day 3</strong></summary>
+	
+<details><summary><strong>TL-Verilog and Makerchip IDE</strong></summary>
+<p>TL-Verilog, short for Transaction-Level Verilog, is a hardware description and design language used for specifying and designing digital systems, particularly focusing on transaction-level abstraction and high-level design. It extends traditional Verilog and SystemVerilog languages by introducing higher-level constructs that facilitate the design and verification process, making it more suitable for complex system-on-chip (SoC) designs.</p>
+
+ <p>Makerchip is an online Integrated Development Environment (IDE) designed specifically for digital system design and hardware description. It provides a platform for creating, simulating, and visualizing digital designs using various hardware description languages and tools, including SystemVerilog, Verilog, and TL-Verilog. Makerchip aims to simplify the process of designing and simulating digital circuits by offering an accessible and user-friendly interface.</p>
+</details>
+
+<details><summary><strong>Introduction to Makerchip IDE</strong></summary>
+<h2>Pythagorean Template</h2>
+<div align = "center">
+	<img src = "">
+</div>
+
+
+<h2>Inverter</h2>
+<div align = "center">
+	<img src = "https://user-images.githubusercontent.com/140998787/261837324-cf6aee8b-14c1-4195-8023-f6ea5ba345b0.png">
+</div>
+
+<h2>Multiplexer</h2>
+<div align = "center">
+	<img src = "https://user-images.githubusercontent.com/140998787/261837187-b054221a-0ef7-4254-a3c9-1ce5c5b6dc29.png">
+</div>
+
+ <h2>Vector Usage</h2>
+<div align = "center">
+	<img src = "https://user-images.githubusercontent.com/140998787/261837103-e6417fb9-6d79-4dd5-ba50-5b8304fd1a05.png">
+</div>
+
+<h2>Wide Multiplexer</h2>
+<div align = "center">
+	<img src = "https://user-images.githubusercontent.com/140998787/261837419-40c37c7e-4efe-4983-b8a9-ef6905a00e6b.png">
+</div>
+
+<h2>Calculator</h2>
+<div align = "center">
+	<img src = "https://user-images.githubusercontent.com/140998787/261842057-4c5f33ec-14d1-47fc-87a7-52689d6d37d2.png">
+</div>
+ </details>
 </details>
 
 <details>
