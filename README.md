@@ -173,6 +173,20 @@ The -d flag specifies that we want to disassemble the code, and sum1ton.o is the
  </div>
  <h2>2-Cycle Calculator</h2>
  <img src="https://github.com/NiteshIIITB/RISC-V/assets/140998787/ce531a3d-04b7-45c3-8ad4-d6084c9fa417">
+<br>
+ <div align="center">
+	 <h1>Validity</h1>
+ </div>
+ <p>In logic circuits and digital design, "validity" typically refers to the concept of ensuring that signals or data within a system are in a valid or reliable state before they are processed or used in subsequent stages. Validity plays a crucial role in maintaining the correctness and proper functioning of digital systems. </p>
+ <h3>Advantages of Validity</h3>
+ <p>
+	 <ul>
+		 <li> Reliable Operation: Validity guarantees that the system operates reliably and produces accurate results. Without ensuring the validity of inputs, the output of digital circuits could be unpredictable or incorrect.</li>
+		 <li>Validity ensures that data transitions are synchronized with clock edges, which leads to consistent behavior and predictable outputs. This is especially important in synchronous digital systems.</li>
+		 <li>Design Verification: Validity considerations are crucial during design verification and testing. Ensuring inputs are in valid states allows for more targeted testing and easier debugging of issues.</li>
+		 <li>Power Efficiency: Validity checks can prevent unnecessary switching of logic values when inputs are changing rapidly. This helps reduce dynamic power consumption in the system.</li>
+	 </ul>
+ </p>
  </details>
 
 </details>
