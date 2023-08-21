@@ -168,7 +168,13 @@ The -d flag specifies that we want to disassemble the code, and sum1ton.o is the
 <img src = "https://user-images.githubusercontent.com/140998787/261844311-caf5358c-1726-4ec3-bb04-40569a0002aa.png">
         <img src = "https://user-images.githubusercontent.com/140998787/261844482-e3f54fd2-95a4-469e-bc72-6eee7a9e166f.png">
 </div>
+ <div align="center">
+	 <h1>Pipelined Logic</h1>
+ </div>
+ <h2>2-Cycle Calculator</h2>
+ <img src="https://github.com/NiteshIIITB/RISC-V/assets/140998787/ce531a3d-04b7-45c3-8ad4-d6084c9fa417">
  </details>
+
 </details>
 
 <details>
