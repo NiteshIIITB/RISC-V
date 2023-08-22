@@ -113,6 +113,11 @@ The -d flag specifies that we want to disassemble the code, and sum1ton.o is the
 
 <details>
 <summary><strong>Day 2</strong></summary>
+<h2>The New Algorithm For Sum 1ton c program</h2>	
+
+<div align="center">
+	<img src ="https://github.com/NiteshIIITB/RISC-V/assets/140998787/ba90f4dc-352d-4c36-90ea-1cda1342a1d0">
+</div>
 </details>
 
 <details>
