@@ -249,7 +249,7 @@ vvp -N testbench.vvp
     - This runs the compiled simulation executable using the VVP (Verilog VVP) simulator.
 <br>
 
-In summary, this script performs a series of compilation, linking, and conversion steps to prepare and simulate RISC-V assembly and C code using a combination of tools and scripts. The resulting simulation should involve the execution of the RISC-V code within the given constraints and configurations.
+In summary, this script performs a series of compilation, linking, and conversion steps to prepare and simulate RISC-V assembly and C code using a combination of tools and scripts. The resulting simulation involve the execution of the RISC-V code within the given constraints and configurations.
 </p>
 
 
