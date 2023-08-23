@@ -333,6 +333,96 @@ In summary, this script performs a series of compilation, linking, and conversio
 
 <details>
 <summary><strong>Day 4</strong></summary>
+<h2>PC Logic</h2>
+<p>
+	A program counter (PC), also known as an instruction pointer (IP) in some architectures, is a fundamental component of a computer's central processing unit (CPU). It's a special register that keeps track of the memory address of the next instruction to be executed in a program. The program counter is used in conjunction with the fetch-execute cycle, which is the basic process through which a CPU carries out instructions.<br><br>
+
+The working of program counter in a nutshell<br><br>
+
+Fetch: The CPU fetches the instruction from memory at the address pointed to by the program counter.<br><br>
+
+Increment: After the fetch, the program counter is incremented to point to the next memory location where the next instruction resides.<br><br>
+
+Execute: The fetched instruction is then executed.<br><br>
+
+ Repeat: The process repeats, with the program counter always indicating the memory address of the next instruction to be fetched and executed.<br><br>
+</p>
+
+```
+|cpu
+      @0
+         $reset = *reset;
+         $pc[31:0] = >>1$reset ? 0 : >>1$pc + 32'd4;
+
+```
+
+<h4>Output</h4>
+<div align ="center">
+
+<img src = "https://github.com/NiteshIIITB/RISC-V/assets/140998787/78bc2a81-d825-4b7f-b928-fd4674861cd6">	
+
+</div>
+<br>
+
+<h2>Fetch</h2>
+<p>
+Let's delve deeper into the fetch stage:
+<br><br>
+Fetch Instruction: In this stage, the CPU retrieves the next instruction from memory. The address of the instruction to be fetched is provided by the program counter (PC). The program counter holds the memory address of the next instruction to be executed. It is updated during each cycle to point to the next instruction.
+<br><br>
+Memory Access: The CPU sends a memory read request to the memory unit, specifying the address pointed to by the program counter. The memory unit then retrieves the instruction from the specified memory location and provides it to the CPU.
+<br><br>
+Instruction Register (IR): The fetched instruction is loaded into a special register called the instruction register (IR). The instruction register temporarily holds the fetched instruction until it's ready to be decoded and executed.
+<br><br>
+Program Counter Update: After the fetch, the program counter is incremented to point to the memory address of the next instruction. The exact increment depends on the length of the fetched instruction (which can vary between different instructions and architectures).
+<br><br>
+At this point, the fetched instruction is in the instruction register, and the CPU is ready to move on to the "decode" stage, during which the fetched instruction is interpreted to determine what operation needs to be executed.
+</p>
+
+```
+|cpu
+      @0
+         $reset = *reset;
+         $pc[31:0] = >>1$reset ? 0 : >>1$pc + 32'd4;
+      @1
+         $imem_rd_en = !$reset;
+         $imem_rd_addr[M4_IMEM_INDEX_CNT-1:0] = $pc[M4_IMEM_INDEX_CNT+1:2];
+         $instr[31:0] = $imem_rd_data[31:0];
+         
+      ?$imem_rd_en
+         @1
+            $imem_rd_data[31:0] = /imem[$imem_rd_addr]$instr;
+
+      
+```
+
+<h4>Output</h4>
+<div>
+	<img src="https://github.com/NiteshIIITB/RISC-V/assets/140998787/46a516f2-35f6-40bb-9413-8ba71f67234c">
+</div>
+
+<h4>Viz Output</h4>
+<div>
+	<img src="https://github.com/NiteshIIITB/RISC-V/assets/140998787/181d7ee4-0523-4760-85b7-f2436cb186d4">
+</div>
+
+<h2>Decode Logic</h2>
+<h3>Immediate Decode logic</h3>
+<div align = "center">
+	<img src ="https://github.com/NiteshIIITB/RISC-V/assets/140998787/3c634ddc-b83d-4a03-b2c1-74bb7a0cc60a">
+</div>	
+<br>
+<h3>Further Instructions Decode</h3>
+<div align = "center">
+	<img src ="https://github.com/NiteshIIITB/RISC-V/assets/140998787/bb2e69e6-f78d-49e2-86ea-545bd43e5f7d">
+</div>
+<br>
+<h4>Output</h4>
+<div align="center">
+
+<img src = "https://github.com/NiteshIIITB/RISC-V/assets/140998787/f81303b5-9b6b-4467-ad84-20a8992ab590">	
+</div>
+
 </details>
 
 <details>
