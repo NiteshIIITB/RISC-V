@@ -7,7 +7,7 @@
  <h3>C program doing sum of numbers from 1 to n</h3>
  <h4>Code</h4>
 
-```
+```c
 #include<stdio.h>
 int main(){
    int n = 10;
@@ -121,7 +121,7 @@ The -d flag specifies that we want to disassemble the code, and sum1ton.o is the
 
 <h2>Code</h2>
 
-```
+```c
 #include <stdio.h>
 
 extern int load(int x, int y); 
@@ -137,7 +137,7 @@ int main() {
 
 <h2>Assembly Code For Load Function</h2>
 
-```
+```asm
 .section .text
 .global load
 .type load, @function
